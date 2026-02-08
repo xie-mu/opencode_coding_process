@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "created": "2026-02-07T13:51:00.258809",
+  "last_updated": "2026-02-07T13:51:00.258826",
+  "collections": {
+    "openclaw-core": {
+      "name": "OpenClaw核心文档",
+      "description": "OpenClaw核心文档和配置",
+      "file_count": 11,
+      "size": 39330
+    },
+    "skills-repository": {
+      "name": "技能库",
+      "description": "OpenClaw技能集合",
+      "file_count": 5,
+      "size": 0
+    },
+    "development-tools": {
+      "name": "开发工具",
+      "description": "开发工具集合",
+      "file_count": 6,
+      "size": 36341
+    }
+  }
+}

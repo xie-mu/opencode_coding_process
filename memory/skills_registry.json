@@ -1,0 +1,242 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-07T21:59:43.499165",
+  "total_skills": 6,
+  "skills": [
+    {
+      "name": "example-weather",
+      "path": "skills/example-weather",
+      "description": "从技能库加载的技能: example-weather",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:43.499130",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 3,
+        "py": 1,
+        "md": 1,
+        "txt": 1
+      },
+      "functions": [
+        {
+          "name": "query_current_weather",
+          "description": "查询当前天气",
+          "parameters": [
+            "city"
+          ]
+        },
+        {
+          "name": "get_forecast",
+          "description": "获取天气预报",
+          "parameters": [
+            "city",
+            "days"
+          ]
+        },
+        {
+          "name": "convert_temperature",
+          "description": "温度转换",
+          "parameters": [
+            "temp",
+            "from_unit",
+            "to_unit"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.openweathermap.org/data/2.5/weather",
+        "https://api.openweathermap.org/data/2.5/forecast"
+      ],
+      "size": 4.2
+    },
+    {
+      "name": "file-manager",
+      "path": "skills/file-manager",
+      "description": "从技能库加载的技能: file-manager",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:11.068456",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 4,
+        "py": 2,
+        "md": 1,
+        "txt": 1
+      },
+      "functions": [
+        {
+          "name": "query",
+          "description": "执行技能查询",
+          "parameters": [
+            "query"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.example.com"
+      ]
+    },
+    {
+      "name": "calculator",
+      "path": "skills/calculator",
+      "description": "从技能库加载的技能: calculator",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:11.068520",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 4,
+        "py": 2,
+        "md": 1,
+        "txt": 1
+      },
+      "functions": [
+        {
+          "name": "query",
+          "description": "执行技能查询",
+          "parameters": [
+            "query"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.example.com"
+      ]
+    },
+    {
+      "name": "weather-query",
+      "path": "skills/weather-query",
+      "description": "从技能库加载的技能: weather-query",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:11.068585",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 3,
+        "py": 1,
+        "md": 1,
+        "txt": 1
+      },
+      "functions": [
+        {
+          "name": "query",
+          "description": "执行技能查询",
+          "parameters": [
+            "query"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.example.com"
+      ]
+    },
+    {
+      "name": "data-analysis",
+      "path": "skills/data-analysis",
+      "description": "从技能库加载的技能: data-analysis",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:11.068645",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 1,
+        "py": 0,
+        "md": 1,
+        "txt": 0
+      },
+      "functions": [
+        {
+          "name": "query",
+          "description": "执行技能查询",
+          "parameters": [
+            "query"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.example.com"
+      ]
+    },
+    {
+      "name": "web-search",
+      "path": "skills/web-search",
+      "description": "从技能库加载的技能: web-search",
+      "version": "1.0.0",
+      "author": "电子核动力驴",
+      "category": "工具",
+      "tags": [
+        "技能库",
+        "自动加载"
+      ],
+      "created": "2026-02-07T21:59:11.068689",
+      "last_used": null,
+      "usage_count": 0,
+      "rating": 5.0,
+      "status": "active",
+      "files": {
+        "total": 2,
+        "py": 1,
+        "md": 1,
+        "txt": 0
+      },
+      "functions": [
+        {
+          "name": "query",
+          "description": "执行技能查询",
+          "parameters": [
+            "query"
+          ]
+        }
+      ],
+      "integration_status": "complete",
+      "api_endpoints": [
+        "https://api.example.com"
+      ]
+    }
+  ]
+}

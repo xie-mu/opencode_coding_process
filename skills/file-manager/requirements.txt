@@ -1,0 +1,2 @@
+# file-manager技能依赖
+# 添加必要的Python包

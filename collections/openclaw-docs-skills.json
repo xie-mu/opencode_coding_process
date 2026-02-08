@@ -1,0 +1,89 @@
+{
+  "name": "OpenClaw文档与技能集合",
+  "description": "包含OpenClaw官方文档、ClawHub文档和技能代码库的集合，用于加速检索效率",
+  "version": "1.0.0",
+  "created": "2026-02-08",
+  "documents": [
+    {
+      "path": "/root/.openclaw/workspace/docs/openclaw/README.md",
+      "title": "OpenClaw官方文档",
+      "type": "documentation",
+      "category": "核心文档"
+    },
+    {
+      "path": "/root/.openclaw/workspace/docs/clawhub/README.md",
+      "title": "ClawHub官方文档",
+      "type": "documentation",
+      "category": "核心文档"
+    },
+    {
+      "path": "/root/.openclaw/workspace/docs/clawhub/docs/api.md",
+      "title": "ClawHub API文档",
+      "type": "api-documentation",
+      "category": "API文档"
+    },
+    {
+      "path": "/root/.openclaw/workspace/docs/clawhub/docs/architecture.md",
+      "title": "ClawHub架构文档",
+      "type": "architecture-documentation",
+      "category": "架构文档"
+    },
+    {
+      "path": "/root/.openclaw/workspace/docs/clawhub/docs/cli.md",
+      "title": "ClawHub CLI文档",
+      "type": "cli-documentation",
+      "category": "CLI文档"
+    }
+  ],
+  "skills": [
+    {
+      "path": "/root/.openclaw/workspace/skills/example-weather/SKILL.md",
+      "title": "天气查询技能",
+      "type": "weather",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/file-manager/SKILL.md",
+      "title": "文件管理器技能",
+      "type": "file-management",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/calculator/SKILL.md",
+      "title": "智能计算器技能",
+      "type": "calculation",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/weather-query/SKILL.md",
+      "title": "天气查询技能",
+      "type": "weather",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/web-search/SKILL.md",
+      "title": "网络搜索技能",
+      "type": "search",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/data-analysis/SKILL.md",
+      "title": "数据分析技能",
+      "type": "data-analysis",
+      "category": "实用工具"
+    },
+    {
+      "path": "/root/.openclaw/workspace/skills/openclaw-skills/.agents/skills/merge-pr/SKILL.md",
+      "title": "PR合并技能",
+      "type": "git-operation",
+      "category": "开发工具"
+    }
+  ],
+  "metadata": {
+    "total_documents": 5,
+    "total_skills": 7,
+    "last_updated": "2026-02-08T14:23:00Z",
+    "search_index": true,
+    "auto_sync": true
+  }
+}
