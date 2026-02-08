@@ -1,0 +1,102 @@
+{
+  "name": "OpenClaw Docs & Skills Collection",
+  "version": "1.0.0",
+  "created": "2026-02-08T07:18:02.702Z",
+  "metadata": {
+    "totalItems": 10,
+    "documentCount": 4,
+    "skillCount": 6
+  },
+  "items": [
+    {
+      "id": "doc-clawhub-AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "path": "/root/.openclaw/workspace/docs/clawhub/AGENTS.md",
+      "size": 2199,
+      "modified": "2026-02-07T01:08:34.916Z",
+      "category": "clawhub"
+    },
+    {
+      "id": "doc-clawhub-CHANGELOG.md",
+      "type": "document",
+      "name": "CHANGELOG.md",
+      "path": "/root/.openclaw/workspace/docs/clawhub/CHANGELOG.md",
+      "size": 8449,
+      "modified": "2026-02-07T01:08:34.916Z",
+      "category": "clawhub"
+    },
+    {
+      "id": "doc-clawhub-DEPRECATIONS.md",
+      "type": "document",
+      "name": "DEPRECATIONS.md",
+      "path": "/root/.openclaw/workspace/docs/clawhub/DEPRECATIONS.md",
+      "size": 232,
+      "modified": "2026-02-07T01:08:34.916Z",
+      "category": "clawhub"
+    },
+    {
+      "id": "doc-clawhub-README.md",
+      "type": "document",
+      "name": "README.md",
+      "path": "/root/.openclaw/workspace/docs/clawhub/README.md",
+      "size": 5142,
+      "modified": "2026-02-07T01:08:34.917Z",
+      "category": "clawhub"
+    },
+    {
+      "id": "skill-calculator-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/calculator/SKILL.md",
+      "size": 1054,
+      "modified": "2026-02-07T01:25:53.368Z",
+      "category": "calculator"
+    },
+    {
+      "id": "skill-data-analysis-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/data-analysis/SKILL.md",
+      "size": 0,
+      "modified": "2026-02-07T01:25:53.381Z",
+      "category": "data-analysis"
+    },
+    {
+      "id": "skill-example-weather-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/example-weather/SKILL.md",
+      "size": 1666,
+      "modified": "2026-02-07T01:22:14.546Z",
+      "category": "example-weather"
+    },
+    {
+      "id": "skill-file-manager-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/file-manager/SKILL.md",
+      "size": 1002,
+      "modified": "2026-02-07T01:25:53.359Z",
+      "category": "file-manager"
+    },
+    {
+      "id": "skill-weather-query-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/weather-query/SKILL.md",
+      "size": 965,
+      "modified": "2026-02-07T01:25:53.375Z",
+      "category": "weather-query"
+    },
+    {
+      "id": "skill-web-search-SKILL.md",
+      "type": "skill",
+      "name": "SKILL.md",
+      "path": "/root/.openclaw/workspace/skills/web-search/SKILL.md",
+      "size": 1034,
+      "modified": "2026-02-07T07:27:05.854Z",
+      "category": "web-search"
+    }
+  ]
+}
