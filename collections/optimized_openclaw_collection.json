@@ -1,956 +1,932 @@
 {
   "metadata": {
-    "name": "OpenClaw文档与技能集合",
-    "version": "2.0.0",
-    "created": "2026-02-08",
-    "last_build": "2026-02-08T14:23:00Z",
-    "total_items": 9,
-    "optimized": true
+    "name": "OpenClaw完整文档与技能集合",
+    "version": "3.0.0",
+    "created": "2026-02-10",
+    "total_items": 89
   },
   "retrieval_index": {
-    "doc:ClawHub官方文档": {
-      "type": "document",
-      "title": "ClawHub官方文档",
-      "path": "/root/.openclaw/workspace/docs/clawhub/README.md",
+    "local_skill_0000": {
+      "type": "skill",
+      "title": "zhipu-search",
+      "description": "智谱AI网络搜索工具，提供灵活的搜索引擎调用能力。  Use when: - 需要搜索网络信息获取最新数据 - 需要特定搜索引擎（搜狗、夸克、智谱搜索） - 需要按时间范围、域名过滤搜索结果 - 需要控制搜索结果数量和详细程度  支持搜索引擎：search_std(基础版)、search_pro(高阶版)、search_pro_sogou(搜狗)、search_pro_quark(夸克) 支持参数",
       "keywords": [
-        "lore",
-        "mit",
-        "clawd",
-        "telemetry",
-        "nixmode",
-        "logocolor",
-        "convex",
-        "share",
-        "run",
-        "url",
-        "regular",
-        "github",
-        "brittle",
-        "plugins",
-        "curate",
-        "point",
-        "optional",
-        "routes",
-        "shared",
-        "while",
-        "status",
-        "react",
-        "you",
-        "auth",
-        "blue",
-        "then",
-        "bundle",
-        "browsing",
-        "install",
-        "live",
-        "output",
-        "binary",
-        "version",
-        "entry",
-        "writes",
-        "environment",
-        "first",
-        "way",
-        "skill",
-        "extra",
-        "repo",
-        "href",
-        "details",
-        "app",
-        "star",
-        "changelogs",
-        "builds",
-        "souls",
-        "which",
-        "knows",
-        "onlycrabs",
-        "their",
-        "setup",
-        "cli",
-        "default",
-        "actions",
-        "openai",
-        "minimal",
-        "plus",
-        "accepted",
-        "search",
-        "only",
-        "what",
-        "now",
-        "alt",
-        "home",
-        "storage",
-        "mutations",
-        "site",
-        "mods",
-        "label",
-        "center",
-        "svg",
-        "white",
-        "dev",
-        "openclaw",
-        "high",
-        "branch",
-        "license",
-        "indexing",
-        "based",
-        "deployment",
-        "prints",
-        "preferred",
-        "workflow",
-        "approve",
-        "tanstack",
-        "including",
-        "admins",
-        "bun",
-        "yml",
-        "values",
-        "works",
-        "versions",
-        "https",
-        "instead",
-        "nav",
-        "how",
-        "level",
-        "pack",
-        "text",
-        "style",
-        "keywords",
-        "cookies",
-        "flags",
-        "when",
-        "styles",
-        "match",
-        "recommended",
-        "supporting",
-        "compatibility",
-        "set",
-        "comment",
-        "override",
-        "schema",
-        "from",
-        "host",
-        "workflows",
-        "vite",
-        "help",
-        "nix",
-        "accept",
-        "img",
-        "together",
-        "shields",
-        "new",
-        "designed",
-        "local",
-        "tracks",
-        "alias",
-        "config",
-        "pointer",
-        "add",
-        "frontmatter",
-        "also",
-        "include",
-        "ssr",
-        "show",
-        "via",
-        "clawhub",
-        "index",
-        "files",
-        "example",
-        "publish",
-        "main",
-        "web",
-        "its",
-        "agent",
-        "product",
-        "logged",
-        "browse",
-        "badge",
-        "snippet",
-        "logo",
-        "color",
-        "system",
-        "page",
-        "create",
-        "backend",
-        "keys",
-        "file",
-        "align",
-        "discord",
-        "embeddings",
-        "moderation",
-        "tags",
-        "oauth",
-        "compute",
-        "components",
-        "queries",
-        "store",
-        "counts",
-        "types",
-        "requirements",
-        "soul",
-        "your",
-        "layout",
-        "skills",
-        "friendly",
-        "hooks",
-        "package",
-        "declare",
-        "vector",
-        "http",
-        "prereqs",
-        "fast",
-        "api",
-        "render",
-        "registry",
-        "read",
-        "implementation",
-        "under",
-        "start",
-        "good",
-        "different",
-        "bundles",
-        "scripts",
-        "clawdbot",
-        "plugin",
-        "same",
-        "src",
-        "com",
-        "disable",
-        "nitro",
-        "spec",
-        "public"
+        "zhipu-search",
+        "工具",
+        "网络",
+        "搜索"
       ],
-      "content_hash": "07190cf3",
-      "category": "核心文档"
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/zhipu-web-search/SKILL.md"
     },
-    "doc:ClawHub API文档": {
-      "type": "document",
-      "title": "ClawHub API文档",
-      "path": "/root/.openclaw/workspace/docs/clawhub/docs/api.md",
+    "local_skill_0001": {
+      "type": "skill",
+      "title": "联网搜索",
+      "description": "网络搜索和信息查询工具",
       "keywords": [
-        "conventions",
-        "default",
-        "available",
-        "see",
-        "required",
-        "rest",
-        "building",
-        "multipart",
-        "min",
-        "adding",
-        "account",
-        "clients",
-        "openapi",
-        "endpoints",
-        "auth",
-        "schemas",
-        "preferred",
-        "summary",
-        "api",
-        "legacy",
-        "rate",
-        "read",
-        "base",
-        "still",
-        "key",
-        "publish",
-        "write",
-        "headers",
-        "overview",
-        "limits",
-        "per",
-        "token",
-        "public"
+        "工具",
+        "搜索",
+        "网络",
+        "查询",
+        "联网搜索"
       ],
-      "content_hash": "26cc06d4",
-      "category": "API文档"
+      "category": "实用工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/web-search/SKILL.md"
     },
-    "doc:ClawHub架构文档": {
-      "type": "document",
-      "title": "ClawHub架构文档",
-      "path": "/root/.openclaw/workspace/docs/clawhub/docs/architecture.md",
+    "local_skill_0002": {
+      "type": "skill",
+      "title": "天气查询",
+      "description": "实时天气查询和预报服务",
       "keywords": [
-        "telemetry",
-        "convex",
-        "state",
-        "update",
-        "optionally",
-        "downloads",
-        "multipart",
-        "shared",
-        "routes",
-        "skips",
-        "flow",
-        "react",
-        "bearer",
-        "bundle",
-        "layers",
-        "install",
-        "installed",
-        "version",
-        "requires",
-        "extract",
-        "skill",
-        "app",
-        "overview",
-        "reports",
-        "pieces",
-        "flows",
-        "published",
-        "cli",
-        "default",
-        "actions",
-        "orienting",
-        "action",
-        "search",
-        "resolve",
-        "storage",
-        "refuse",
-        "tracing",
-        "codebase",
-        "doesn",
-        "folder",
-        "summary",
-        "tanstack",
-        "persist",
-        "roots",
-        "modified",
-        "known",
-        "overwrite",
-        "root",
-        "text",
-        "match",
-        "versioned",
-        "fingerprint",
-        "architecture",
-        "set",
-        "compare",
-        "currently",
-        "stars",
-        "schema",
-        "from",
-        "markdown",
-        "hash",
-        "matches",
-        "folders",
-        "use",
-        "see",
-        "latest",
-        "stats",
-        "scan",
-        "publishes",
-        "generated",
-        "new",
-        "zip",
-        "local",
-        "frontmatter",
-        "comments",
-        "via",
-        "stored",
-        "files",
-        "publish",
-        "user",
-        "main",
-        "web",
-        "per",
-        "token",
-        "reads",
-        "browse",
-        "inside",
-        "current",
-        "metadata",
-        "system",
-        "during",
-        "call",
-        "backend",
-        "sync",
-        "rendered",
-        "embeddings",
-        "queries",
-        "compute",
-        "across",
-        "contain",
-        "installs",
-        "changed",
-        "schemas",
-        "skills",
-        "http",
-        "vector",
-        "legacy",
-        "registry",
-        "start",
-        "under",
-        "data",
-        "workdir",
-        "extracted",
-        "download",
-        "into"
+        "天气查询",
+        "查询"
       ],
-      "content_hash": "0f447cd1",
-      "category": "架构文档"
+      "category": "实用工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/weather-query/SKILL.md"
     },
-    "doc:ClawHub CLI文档": {
-      "type": "document",
-      "title": "ClawHub CLI文档",
-      "path": "/root/.openclaw/workspace/docs/clawhub/docs/cli.md",
+    "local_skill_0003": {
+      "type": "skill",
+      "title": "vercel",
+      "description": "Deploy applications and manage projects with complete CLI reference. Commands for deployments, projects, domains, environment variables, and live documentation access.",
       "keywords": [
-        "reference",
-        "machine",
-        "owned",
-        "telemetry",
-        "prompts",
-        "history",
-        "update",
-        "scans",
-        "run",
-        "url",
-        "handle",
-        "macos",
-        "downloads",
-        "max",
-        "multipart",
-        "unless",
-        "delete",
-        "shared",
-        "skips",
-        "configured",
-        "lists",
-        "specific",
-        "restore",
-        "readable",
-        "you",
-        "treats",
-        "change",
-        "commands",
-        "unhide",
-        "extracts",
-        "install",
-        "stores",
-        "sent",
-        "output",
-        "version",
-        "writes",
-        "selected",
-        "first",
-        "requires",
-        "skill",
-        "moderator",
-        "extra",
-        "removes",
-        "repo",
-        "soft",
-        "installing",
-        "details",
-        "cwd",
-        "loopback",
-        "cached",
-        "published",
-        "single",
-        "refuses",
-        "cli",
-        "default",
-        "search",
-        "only",
-        "sorted",
-        "equivalents",
-        "non",
-        "fetches",
-        "auto",
-        "present",
-        "folder",
-        "highlights",
-        "summary",
-        "browser",
-        "else",
-        "prompt",
-        "overwrites",
-        "falls",
-        "roots",
-        "dir",
-        "env",
-        "inspect",
-        "tagged",
-        "versions",
-        "known",
-        "instead",
-        "any",
-        "directory",
-        "text",
-        "flags",
-        "match",
-        "when",
-        "fingerprint",
-        "override",
-        "opens",
-        "from",
-        "matches",
-        "patch",
-        "folders",
-        "plan",
-        "headless",
-        "latest",
-        "discovered",
-        "resolves",
-        "scan",
-        "publishes",
-        "new",
-        "interactive",
-        "verifies",
-        "argument",
-        "zip",
-        "workspace",
-        "not",
-        "bin",
-        "local",
-        "alias",
-        "config",
-        "wrapper",
-        "computes",
-        "show",
-        "via",
-        "stored",
-        "base",
-        "confirmation",
-        "files",
-        "completes",
-        "user",
-        "main",
-        "ones",
-        "working",
-        "callback",
-        "hide",
-        "agent",
-        "limit",
-        "per",
-        "token",
-        "reads",
-        "logged",
-        "fuzzy",
-        "metadata",
-        "adds",
-        "without",
-        "page",
-        "during",
-        "lockfile",
-        "file",
-        "sync",
-        "list",
-        "respects",
-        "newest",
-        "global",
-        "updated",
-        "back",
-        "fetch",
-        "content",
-        "ban",
-        "your",
-        "prompting",
-        "chars",
-        "desc",
-        "changed",
-        "packs",
-        "skills",
-        "behavior",
-        "package",
-        "truncated",
-        "hidden",
-        "api",
-        "legacy",
-        "upload",
-        "registry",
-        "semver",
-        "under",
-        "role",
-        "workdir",
-        "admin",
-        "clawdbot",
-        "calls",
-        "disable",
-        "raw",
-        "script",
-        "login",
-        "debugging",
-        "into"
+        "vercel"
       ],
-      "content_hash": "5dc5acb5",
-      "category": "CLI文档"
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/Vercel/SKILL.md"
     },
-    "skill:天气查询技能": {
+    "local_skill_0004": {
+      "type": "skill",
+      "title": "secure-memory-stack",
+      "description": "一个安全的本地化记忆系统，结合百度Embedding语义搜索、Git Notes结构化存储和文件系统，确保数据隐私和安全。",
+      "keywords": [
+        "系统",
+        "secure-memory-stack",
+        "搜索"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/secure-memory-stack/SKILL.md"
+    },
+    "local_skill_0005": {
+      "type": "skill",
+      "title": "searxng",
+      "description": "Privacy-respecting metasearch using your local SearXNG instance. Search the web, images, news, and more without external API dependencies.",
+      "keywords": [
+        "searxng"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/Searxng/SKILL.md"
+    },
+    "local_skill_0006": {
+      "type": "skill",
+      "title": "qmd",
+      "description": "Local search/indexing CLI (BM25 + vectors + rerank) with MCP mode.",
+      "keywords": [
+        "qmd"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/qmd/SKILL.md"
+    },
+    "local_skill_0007": {
+      "type": "skill",
+      "title": "perplexity",
+      "description": "Search the web with AI-powered answers via Perplexity API. Returns grounded responses with citations. Supports batch queries.",
+      "keywords": [
+        "perplexity"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/Perplexity/SKILL.md"
+    },
+    "local_skill_0008": {
+      "type": "skill",
+      "title": "gitload",
+      "description": ">",
+      "keywords": [
+        "gitload"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/gitload/SKILL.md"
+    },
+    "local_skill_0009": {
+      "type": "skill",
+      "title": "github-pr",
+      "description": "Fetch, preview, merge, and test GitHub PRs locally. Great for trying upstream PRs before they're merged.",
+      "keywords": [
+        "github-pr"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/github-pr/SKILL.md"
+    },
+    "local_skill_0010": {
+      "type": "skill",
+      "title": "github",
+      "description": "\"Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.\"",
+      "keywords": [
+        "github"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/Github/SKILL.md"
+    },
+    "local_skill_0011": {
+      "type": "skill",
+      "title": "文件管理器",
+      "description": "文件操作和管理工具",
+      "keywords": [
+        "管理",
+        "文件管理器",
+        "工具"
+      ],
+      "category": "实用工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/file-manager/SKILL.md"
+    },
+    "local_skill_0012": {
       "type": "skill",
       "title": "天气查询技能",
-      "path": "/root/.openclaw/workspace/skills/weather-query/SKILL.md",
+      "description": "查询天气信息和天气预报",
       "keywords": [
-        "实时天气",
-        "系统",
-        "当前天气状况和温度",
-        "tags",
-        "天气",
-        "风速和风向信息",
-        "湿度和降水概率",
-        "集成技能",
-        "author",
-        "电子核动力驴",
-        "预报",
-        "雪暴等预警",
-        "提供准确的天气信息和预测",
-        "查询",
-        "温度转换",
-        "description",
         "天气查询技能",
-        "该技能展示了如何",
-        "工具",
-        "湿度信息",
-        "version",
-        "功能特性",
-        "天气预报",
-        "提供实时信息服务",
-        "使用方法",
-        "实时天气查询和预报服务",
-        "未来",
-        "风速风向",
-        "风暴",
-        "技能集成",
-        "name",
-        "天天气预报",
-        "集成到",
-        "极端天气",
-        "创建",
-        "实现天气数据查询",
-        "摄氏度和华氏度转换",
-        "天气查询",
-        "这是一个实时天气查询和预报服务"
+        "查询"
       ],
-      "content_hash": "a9cced12",
-      "category": "实用工具"
+      "category": "实用工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/example-weather/SKILL.md"
     },
-    "skill:文件管理器技能": {
+    "local_skill_0013": {
       "type": "skill",
-      "title": "文件管理器技能",
-      "path": "/root/.openclaw/workspace/skills/file-manager/SKILL.md",
+      "title": "clawguard",
+      "description": "Install and configure the ClawGuard security plugin - an LLM-as-a-Judge guardrail that detects and blocks risky tool calls",
       "keywords": [
-        "提供命令行接口",
-        "系统",
-        "文件搜索",
-        "这是一个强大的文件操作和管理工具",
-        "权限管理",
-        "文件操作和管理工具",
-        "移动",
-        "磁盘使用情况分析",
-        "tags",
-        "递归查看目录结构",
-        "文件操作",
-        "文件权限设置和修改",
-        "磁盘分析",
-        "提供丰富的文件管理功能",
-        "author",
-        "电子核动力驴",
-        "管理",
-        "文件管理器技能",
-        "文件统计",
-        "基于名称",
-        "description",
-        "创建系统级工具技能",
-        "该技能展示了如何",
-        "文件数量统计",
-        "工具",
-        "实现复杂的文件操作",
-        "文件",
-        "version",
-        "功能特性",
-        "大小搜索",
-        "内容",
-        "文件浏览",
-        "使用方法",
-        "技能集成",
-        "name",
-        "文件管理器",
-        "重命名",
-        "复制",
-        "集成到",
-        "删除",
-        "目录大小"
+        "clawguard"
       ],
-      "content_hash": "4564af6d",
-      "category": "实用工具"
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/clawguard/SKILL.md"
     },
-    "skill:智能计算器技能": {
+    "local_skill_0014": {
       "type": "skill",
-      "title": "智能计算器技能",
-      "path": "/root/.openclaw/workspace/skills/calculator/SKILL.md",
+      "title": "智能计算器",
+      "description": "高级数学计算和科学计算工具",
       "keywords": [
-        "这是一个功能强大的高级数学计算和科学计算工具",
-        "未来值计算",
-        "提供多种计算模式",
-        "科学",
-        "基础计算",
-        "对数",
-        "支持多种计算模式和算法",
-        "十六进制",
-        "tags",
-        "智能计算器",
-        "高级数学计算和科学计算工具",
-        "开方",
-        "author",
-        "三角函数",
-        "体积",
-        "统计分析",
-        "幂运算",
-        "计算",
-        "数学",
-        "角度计算",
-        "电子核动力驴",
-        "实现复杂的算法和公式",
-        "金融计算",
-        "指数",
-        "八进制",
-        "现值",
-        "集成高级数学库",
-        "进制转换",
-        "复利",
-        "智能计算器技能",
-        "创建数学和科学计算技能",
-        "description",
-        "该技能展示了如何",
-        "回归分析",
         "工具",
-        "平均值",
-        "面积",
-        "version",
-        "复数",
-        "功能特性",
-        "加减乘除",
-        "几何计算",
-        "使用方法",
-        "技能集成",
-        "标准差",
-        "name",
-        "科学计算",
-        "二进制"
+        "智能计算器"
       ],
-      "content_hash": "b1edc8c0",
-      "category": "实用工具"
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/calculator/SKILL.md"
     },
-    "skill:网络搜索技能": {
+    "local_skill_0015": {
       "type": "skill",
-      "title": "网络搜索技能",
-      "path": "/root/.openclaw/workspace/skills/web-search/SKILL.md",
+      "title": "Agent Browser",
+      "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.",
       "keywords": [
-        "这是一个强大的网络搜索和信息查询工具",
-        "系统",
-        "查找技术文档和教程",
-        "联网搜索技能",
-        "智能搜索",
-        "创建联网搜索技能",
-        "tags",
-        "多源查询",
-        "网络搜索和信息查询工具",
-        "author",
-        "电子核动力驴",
-        "联网搜索",
-        "技术查询",
-        "获取最新的新闻资讯",
-        "查询",
-        "支持多个搜索引擎",
-        "description",
-        "基于关键词的网络搜索",
-        "该技能展示了如何",
-        "数据检索",
-        "工具",
-        "实时信息",
-        "version",
-        "搜索",
-        "功能特性",
-        "可以快速获取互联网上的最新信息和数据",
-        "使用方法",
-        "技能集成",
-        "实现多搜索引擎集成",
-        "网络",
-        "name",
-        "集成到",
-        "提供实时信息查询",
-        "搜索统计数据和分析"
+        "agent",
+        "browser"
       ],
-      "content_hash": "5fe843a7",
-      "category": "实用工具"
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/agent-browser/SKILL.md"
     },
-    "skill:PR合并技能": {
+    "openclaw_skill_0016": {
       "type": "skill",
-      "title": "PR合并技能",
-      "path": "/root/.openclaw/workspace/skills/openclaw-skills/.agents/skills/merge-pr/SKILL.md",
+      "title": "weather",
+      "description": "Get current weather and forecasts (no API key required).",
       "keywords": [
-        "otherwise",
-        "continue",
-        "checklist",
-        "state",
-        "completion",
-        "preparepr",
-        "url",
-        "run",
-        "printing",
-        "safety",
+        "weather"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/weather/SKILL.md"
+    },
+    "openclaw_skill_0017": {
+      "type": "skill",
+      "title": "wacli",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "keywords": [
+        "wacli"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/wacli/SKILL.md"
+    },
+    "openclaw_skill_0018": {
+      "type": "skill",
+      "title": "voice-call",
+      "description": "Start voice calls via the OpenClaw voice-call plugin.",
+      "keywords": [
+        "voice-call"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/voice-call/SKILL.md"
+    },
+    "openclaw_skill_0019": {
+      "type": "skill",
+      "title": "video-frames",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "keywords": [
+        "video-frames"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/video-frames/SKILL.md"
+    },
+    "openclaw_skill_0020": {
+      "type": "skill",
+      "title": "trello",
+      "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+      "keywords": [
+        "trello"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/trello/SKILL.md"
+    },
+    "openclaw_skill_0021": {
+      "type": "skill",
+      "title": "tmux",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "keywords": [
+        "tmux"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/tmux/SKILL.md"
+    },
+    "openclaw_skill_0022": {
+      "type": "skill",
+      "title": "things-mac",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks OpenClaw to add a task to Things, list i",
+      "keywords": [
+        "things-mac"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/things-mac/SKILL.md"
+    },
+    "openclaw_skill_0023": {
+      "type": "skill",
+      "title": "summarize",
+      "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).",
+      "keywords": [
+        "summarize"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/summarize/SKILL.md"
+    },
+    "openclaw_skill_0024": {
+      "type": "skill",
+      "title": "spotify-player",
+      "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+      "keywords": [
+        "spotify-player"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/spotify-player/SKILL.md"
+    },
+    "openclaw_skill_0025": {
+      "type": "skill",
+      "title": "sonoscli",
+      "description": "Control Sonos speakers (discover/status/play/volume/group).",
+      "keywords": [
+        "sonoscli"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/sonoscli/SKILL.md"
+    },
+    "openclaw_skill_0026": {
+      "type": "skill",
+      "title": "songsee",
+      "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+      "keywords": [
+        "songsee"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/songsee/SKILL.md"
+    },
+    "openclaw_skill_0027": {
+      "type": "skill",
+      "title": "slack",
+      "description": "Use when you need to control Slack from OpenClaw via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+      "keywords": [
+        "slack"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/slack/SKILL.md"
+    },
+    "openclaw_skill_0028": {
+      "type": "skill",
+      "title": "skill-creator",
+      "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+      "keywords": [
+        "skill-creator"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/skill-creator/SKILL.md"
+    },
+    "openclaw_skill_0029": {
+      "type": "skill",
+      "title": "sherpa-onnx-tts",
+      "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
+      "keywords": [
+        "sherpa-onnx-tts"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/sherpa-onnx-tts/SKILL.md"
+    },
+    "openclaw_skill_0030": {
+      "type": "skill",
+      "title": "session-logs",
+      "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
+      "keywords": [
+        "session-logs"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/session-logs/SKILL.md"
+    },
+    "openclaw_skill_0031": {
+      "type": "skill",
+      "title": "sag",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "keywords": [
+        "sag"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/sag/SKILL.md"
+    },
+    "openclaw_skill_0032": {
+      "type": "skill",
+      "title": "peekaboo",
+      "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+      "keywords": [
+        "peekaboo"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/peekaboo/SKILL.md"
+    },
+    "openclaw_skill_0033": {
+      "type": "skill",
+      "title": "ordercli",
+      "description": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP).",
+      "keywords": [
+        "ordercli"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/ordercli/SKILL.md"
+    },
+    "openclaw_skill_0034": {
+      "type": "skill",
+      "title": "oracle",
+      "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+      "keywords": [
+        "oracle"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/oracle/SKILL.md"
+    },
+    "openclaw_skill_0035": {
+      "type": "skill",
+      "title": "openhue",
+      "description": "Control Philips Hue lights/scenes via the OpenHue CLI.",
+      "keywords": [
+        "openhue"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/openhue/SKILL.md"
+    },
+    "openclaw_skill_0036": {
+      "type": "skill",
+      "title": "openai-whisper-api",
+      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "keywords": [
+        "openai-whisper-api"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/openai-whisper-api/SKILL.md"
+    },
+    "openclaw_skill_0037": {
+      "type": "skill",
+      "title": "openai-whisper",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "keywords": [
+        "openai-whisper"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/openai-whisper/SKILL.md"
+    },
+    "openclaw_skill_0038": {
+      "type": "skill",
+      "title": "openai-image-gen",
+      "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+      "keywords": [
+        "openai-image-gen"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/openai-image-gen/SKILL.md"
+    },
+    "openclaw_skill_0039": {
+      "type": "skill",
+      "title": "obsidian",
+      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "keywords": [
+        "obsidian"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/obsidian/SKILL.md"
+    },
+    "openclaw_skill_0040": {
+      "type": "skill",
+      "title": "notion",
+      "description": "Notion API for creating and managing pages, databases, and blocks.",
+      "keywords": [
+        "notion"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/notion/SKILL.md"
+    },
+    "openclaw_skill_0041": {
+      "type": "skill",
+      "title": "nano-pdf",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "keywords": [
+        "nano-pdf"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/nano-pdf/SKILL.md"
+    },
+    "openclaw_skill_0042": {
+      "type": "skill",
+      "title": "nano-banana-pro",
+      "description": "Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).",
+      "keywords": [
+        "nano-banana-pro"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/nano-banana-pro/SKILL.md"
+    },
+    "openclaw_skill_0043": {
+      "type": "skill",
+      "title": "model-usage",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost d",
+      "keywords": [
+        "model-usage"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/model-usage/SKILL.md"
+    },
+    "openclaw_skill_0044": {
+      "type": "skill",
+      "title": "mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "keywords": [
+        "mcporter"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/mcporter/SKILL.md"
+    },
+    "openclaw_skill_0045": {
+      "type": "skill",
+      "title": "local-places",
+      "description": "Search for places (restaurants, cafes, etc.) via Google Places API proxy on localhost.",
+      "keywords": [
+        "local-places"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/local-places/SKILL.md"
+    },
+    "openclaw_skill_0046": {
+      "type": "skill",
+      "title": "imsg",
+      "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+      "keywords": [
+        "imsg"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/imsg/SKILL.md"
+    },
+    "openclaw_skill_0047": {
+      "type": "skill",
+      "title": "himalaya",
+      "description": "\"CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MI",
+      "keywords": [
+        "himalaya"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/himalaya/SKILL.md"
+    },
+    "openclaw_skill_0048": {
+      "type": "skill",
+      "title": "healthcheck",
+      "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron",
+      "keywords": [
+        "healthcheck"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/healthcheck/SKILL.md"
+    },
+    "openclaw_skill_0049": {
+      "type": "skill",
+      "title": "goplaces",
+      "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+      "keywords": [
+        "goplaces"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/goplaces/SKILL.md"
+    },
+    "openclaw_skill_0050": {
+      "type": "skill",
+      "title": "gog",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+      "keywords": [
+        "gog"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/gog/SKILL.md"
+    },
+    "openclaw_skill_0051": {
+      "type": "skill",
+      "title": "github",
+      "description": "\"Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.\"",
+      "keywords": [
+        "github"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/github/SKILL.md"
+    },
+    "openclaw_skill_0052": {
+      "type": "skill",
+      "title": "gifgrep",
+      "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+      "keywords": [
+        "gifgrep"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/gifgrep/SKILL.md"
+    },
+    "openclaw_skill_0053": {
+      "type": "skill",
+      "title": "gemini",
+      "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+      "keywords": [
+        "gemini"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/gemini/SKILL.md"
+    },
+    "openclaw_skill_0054": {
+      "type": "skill",
+      "title": "food-order",
+      "description": "Reorder Foodora orders + track ETA/status with ordercli. Never confirm without explicit user approval. Triggers: order food, reorder, track ETA.",
+      "keywords": [
+        "food-order"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/food-order/SKILL.md"
+    },
+    "openclaw_skill_0055": {
+      "type": "skill",
+      "title": "eightctl",
+      "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+      "keywords": [
+        "eightctl"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/eightctl/SKILL.md"
+    },
+    "openclaw_skill_0056": {
+      "type": "skill",
+      "title": "discord",
+      "description": "Use when you need to control Discord from OpenClaw via the discord tool: send messages, react, post or upload stickers, upload emojis, run polls, manage threads/pins/search, create/edit/delete channel",
+      "keywords": [
+        "discord"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/discord/SKILL.md"
+    },
+    "openclaw_skill_0057": {
+      "type": "skill",
+      "title": "coding-agent",
+      "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.",
+      "keywords": [
+        "coding-agent"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/coding-agent/SKILL.md"
+    },
+    "openclaw_skill_0058": {
+      "type": "skill",
+      "title": "clawhub",
+      "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or p",
+      "keywords": [
+        "clawhub"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/clawhub/SKILL.md"
+    },
+    "openclaw_skill_0059": {
+      "type": "skill",
+      "title": "Canvas Skill",
+      "description": "Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android).",
+      "keywords": [
+        "canvas",
+        "skill"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/canvas/SKILL.md"
+    },
+    "openclaw_skill_0060": {
+      "type": "skill",
+      "title": "camsnap",
+      "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+      "keywords": [
+        "camsnap"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/camsnap/SKILL.md"
+    },
+    "openclaw_skill_0061": {
+      "type": "skill",
+      "title": "bluebubbles",
+      "description": "Use when you need to send or manage iMessages via BlueBubbles (recommended iMessage integration). Calls go through the generic message tool with channel=\"bluebubbles\".",
+      "keywords": [
+        "bluebubbles"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/bluebubbles/SKILL.md"
+    },
+    "openclaw_skill_0062": {
+      "type": "skill",
+      "title": "blucli",
+      "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume.",
+      "keywords": [
+        "blucli"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/blucli/SKILL.md"
+    },
+    "openclaw_skill_0063": {
+      "type": "skill",
+      "title": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "keywords": [
+        "blogwatcher"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/blogwatcher/SKILL.md"
+    },
+    "openclaw_skill_0064": {
+      "type": "skill",
+      "title": "bear-notes",
+      "description": "Create, search, and manage Bear notes via grizzly CLI.",
+      "keywords": [
+        "bear-notes"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/bear-notes/SKILL.md"
+    },
+    "openclaw_skill_0065": {
+      "type": "skill",
+      "title": "apple-reminders",
+      "description": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+      "keywords": [
+        "apple-reminders"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/apple-reminders/SKILL.md"
+    },
+    "openclaw_skill_0066": {
+      "type": "skill",
+      "title": "apple-notes",
+      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks OpenClaw to add a note, list notes, search notes, or manage note folde",
+      "keywords": [
+        "apple-notes"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/apple-notes/SKILL.md"
+    },
+    "openclaw_skill_0067": {
+      "type": "skill",
+      "title": "1password",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "keywords": [
+        "1password"
+      ],
+      "category": "系统工具",
+      "path": "/root/.openclaw/workspace/workspace/skills/openclaw-skills/skills/1password/SKILL.md"
+    },
+    "doc_0068": {
+      "type": "document",
+      "title": "Repository Guidelines",
+      "description": "- `src/` — TanStack Start app code (routes, components, styles).",
+      "keywords": [
+        "guidelines",
+        "repository"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/AGENTS.md"
+    },
+    "doc_0069": {
+      "type": "document",
+      "title": "Changelog",
+      "description": "- CLI/API: add `set-role` to change user roles (admin only).",
+      "keywords": [
+        "changelog"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/CHANGELOG.md"
+    },
+    "doc_0070": {
+      "type": "document",
+      "title": "Deprecations",
+      "description": "- Deprecated: 2026-01-07",
+      "keywords": [
+        "deprecations"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/DEPRECATIONS.md"
+    },
+    "doc_0071": {
+      "type": "document",
+      "title": "API v1",
+      "description": "summary: 'Public REST API (v1) overview and conventions.'",
+      "keywords": [
+        "api"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/api.md"
+    },
+    "doc_0072": {
+      "type": "document",
+      "title": "Architecture",
+      "description": "summary: 'System overview: web app + Convex backend + CLI + shared schema.'",
+      "keywords": [
+        "architecture"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/architecture.md"
+    },
+    "doc_0073": {
+      "type": "document",
+      "title": "Auth",
+      "description": "summary: 'Auth overview: GitHub OAuth (web) + API tokens (CLI).'",
+      "keywords": [
+        "auth"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/auth.md"
+    },
+    "doc_0074": {
+      "type": "document",
+      "title": "CLI",
+      "description": "summary: 'CLI reference: commands, flags, config, lockfile, sync behavior.'",
+      "keywords": [
+        "cli"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/cli.md"
+    },
+    "doc_0075": {
+      "type": "document",
+      "title": "Deploy",
+      "description": "summary: 'Deploy checklist: Convex backend + Vercel web app + /api rewrites.'",
+      "keywords": [
+        "deploy"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/deploy.md"
+    },
+    "doc_0076": {
+      "type": "document",
+      "title": "Diffing mode",
+      "description": "summary: \"Skill version diffing mode (Monaco-backed)\"",
+      "keywords": [
+        "diffing",
+        "mode"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/diffing.md"
+    },
+    "doc_0077": {
+      "type": "document",
+      "title": "GitHub import (public repos)",
+      "description": "summary: 'Feature spec: import a skill from a public GitHub URL (auto-detect SKILL.md, selective file upload, provenance).'",
+      "keywords": [
+        "repos)",
+        "import",
         "github",
-        "error",
-        "delete",
-        "missing",
-        "criteria",
-        "optional",
-        "delegating",
-        "running",
-        "already",
-        "steps",
-        "you",
-        "gateway",
-        "commands",
-        "multiline",
-        "then",
-        "earlier",
-        "identify",
-        "fails",
-        "squash",
-        "port",
-        "first",
-        "still",
-        "loop",
-        "path",
-        "report",
-        "ambiguous",
-        "meta",
-        "name",
-        "overview",
-        "prepared",
-        "asked",
-        "beyond",
-        "setup",
-        "real",
-        "all",
-        "only",
-        "behind",
-        "what",
-        "prs",
-        "failing",
-        "cleanup",
-        "git",
-        "wrong",
-        "code",
-        "execution",
-        "branch",
-        "auto",
-        "conversation",
-        "worktrees",
-        "end",
-        "workflow",
-        "fatal",
-        "description",
-        "close",
-        "verify",
-        "known",
-        "after",
-        "any",
-        "newlines",
-        "directory",
-        "capture",
-        "print",
-        "when",
-        "retry",
-        "comment",
-        "heredoc",
-        "ready",
-        "from",
-        "remove",
-        "number",
-        "succeeds",
-        "use",
-        "command",
-        "outputs",
-        "sha",
-        "success",
-        "see",
-        "delegate",
-        "footguns",
-        "skip",
-        "not",
-        "guardrails",
-        "local",
-        "work",
-        "mandatory",
-        "modify",
-        "kill",
-        "successful",
-        "clean",
-        "via",
-        "anything",
-        "files",
-        "ends",
-        "touch",
-        "user",
-        "main",
-        "step",
-        "worktree",
-        "draft",
-        "inputs",
-        "todo",
-        "record",
-        "true",
-        "inside",
-        "changes",
-        "create",
-        "during",
-        "checks",
-        "ask",
-        "available",
-        "execute",
-        "never",
-        "repository",
-        "needs",
-        "detect",
-        "stop",
-        "artifacts",
-        "queue",
-        "again",
-        "required",
-        "require",
-        "merge",
-        "ensure",
-        "get",
-        "returned",
-        "push",
-        "isolated",
-        "merged",
-        "read",
-        "processes",
-        "string",
-        "say",
-        "literal",
-        "rule",
-        "expect",
-        "sanity",
-        "load"
+        "(public"
       ],
-      "content_hash": "b83a35b1",
-      "category": "开发工具"
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/github-import.md"
+    },
+    "doc_0078": {
+      "type": "document",
+      "title": "HTTP API",
+      "description": "summary: 'HTTP API reference (public + CLI endpoints + auth).'",
+      "keywords": [
+        "http",
+        "api"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/http-api.md"
+    },
+    "doc_0079": {
+      "type": "document",
+      "title": "Manual testing (CLI)",
+      "description": "summary: 'Copy/paste CLI smoke checklist for local verification.'",
+      "keywords": [
+        "manual",
+        "(cli)",
+        "testing"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/manual-testing.md"
+    },
+    "doc_0080": {
+      "type": "document",
+      "title": "Mintlify",
+      "description": "summary: 'Mintlify setup notes for publishing docs/.'",
+      "keywords": [
+        "mintlify"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/mintlify.md"
+    },
+    "doc_0081": {
+      "type": "document",
+      "title": "Quickstart",
+      "description": "summary: 'Local setup + CLI smoke: login, search, install, publish, sync.'",
+      "keywords": [
+        "quickstart"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/quickstart.md"
+    },
+    "doc_0082": {
+      "type": "document",
+      "title": "Security + Moderation",
+      "description": "summary: 'Security + moderation controls (reports, bans, upload gating).'",
+      "keywords": [
+        "moderation",
+        "security"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/security.md"
+    },
+    "doc_0083": {
+      "type": "document",
+      "title": "Skill format",
+      "description": "summary: 'Skill folder format, required files, allowed file types, limits.'",
+      "keywords": [
+        "format",
+        "skill"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/skill-format.md"
+    },
+    "doc_0084": {
+      "type": "document",
+      "title": "Soul format",
+      "description": "summary: 'Soul bundle format, required files, limits.'",
+      "keywords": [
+        "format",
+        "soul"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/soul-format.md"
+    },
+    "doc_0085": {
+      "type": "document",
+      "title": "ClawHub — product + implementation spec (v1)",
+      "description": "summary: \"ClawHub spec: skills registry, versioning, vector search, moderation\"",
+      "keywords": [
+        "spec",
+        "clawhub",
+        "product",
+        "implementation",
+        "(v1)"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/spec.md"
+    },
+    "doc_0086": {
+      "type": "document",
+      "title": "Telemetry",
+      "description": "summary: 'Install telemetry collected via `clawhub sync` + opt-out.'",
+      "keywords": [
+        "telemetry"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/telemetry.md"
+    },
+    "doc_0087": {
+      "type": "document",
+      "title": "Troubleshooting",
+      "description": "summary: 'Common setup/runtime issues (CLI + backend) and fixes.'",
+      "keywords": [
+        "troubleshooting"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/troubleshooting.md"
+    },
+    "doc_0088": {
+      "type": "document",
+      "title": "Webhooks (Discord)",
+      "description": "summary: 'Discord webhook events/payloads for skill publish + highlight.'",
+      "keywords": [
+        "(discord)",
+        "webhooks"
+      ],
+      "category": "核心文档",
+      "path": "/root/.openclaw/workspace/workspace/docs/clawhub/docs/webhook.md"
     }
-  },
-  "search_tips": [
-    "使用关键词搜索: '天气查询', '文件管理', '计算器'",
-    "搜索技能功能: 'weather', 'file', 'calculation'",
-    "搜索文档类型: 'API文档', '架构文档', 'CLI文档'"
-  ],
-  "quick_access": {
-    "documents": [
-      "OpenClaw官方文档",
-      "ClawHub官方文档",
-      "ClawHub API文档",
-      "ClawHub架构文档",
-      "ClawHub CLI文档"
-    ],
-    "skills": [
-      "天气查询技能",
-      "文件管理器技能",
-      "智能计算器技能",
-      "天气查询技能",
-      "网络搜索技能",
-      "数据分析技能",
-      "PR合并技能"
-    ]
   }
 }
